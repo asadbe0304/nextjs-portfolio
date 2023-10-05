@@ -86,7 +86,7 @@ const Home = () => {
           transition={{ duration: 1, ease: "easeInOut" }}
           className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
         >
-          <div className="hidde md:right-0 opacity-80 left-0 xl:flex xl:max-w-none">
+          <div className="hidden md:right-0 opacity-80 left-0 xl:flex xl:max-w-none">
             <Image src={"/ava.png"} width={737} height={678} alt="my" />
           </div>
         </motion.div>
